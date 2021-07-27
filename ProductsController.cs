@@ -13,6 +13,7 @@ namespace CrudOperation.Controllers
     {
         //GET: AllProducts
         db_NimapTestEntities dbObj = new db_NimapTestEntities();
+         // This line for Edit Products 
         public ActionResult AllProducts(tbl_NimapTest obj)
         {
             if (obj != null)
